@@ -1,0 +1,209 @@
+.dap-centered {
+  text-align: center;
+}
+
+.dap-scrunch-bottom {
+  margin-top: 0;
+}
+
+.dap-scrunch-top {
+  margin-bottom: 0;
+}
+
+.dap-bordered {
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px 20px 5px 20px;
+  border-top: 3px solid #6D99ed;
+  border-bottom: 3px solid #7464ed;
+  background-image: linear-gradient(#6D99ed, #7464ed),
+                    linear-gradient(#6D99ed, #7464ed);
+  background-size: 3px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+}
+
+.dap-normal-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
+
+.dap-med-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.dap-small-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #777;
+}
+
+.dap-purple-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #7464ed;
+}
+
+.dap-help-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #999;
+}
+
+.dap-input {
+  height: 50px;
+  width: 350px;
+  margin: 0 6% 0 6%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #777;
+}
+
+.dap-input::-webkit-input-placeholder {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #ccc;
+}
+
+.dap-full-button-green {
+  background-image: -webkit-linear-gradient(top, #93d89c, #39a04a);
+  height: 52px;
+  width: 356px;
+  box-shadow: 0 0 8px #ccc;
+  border-radius: 5px;
+  border: none;
+  padding: 1px;
+  margin: 10px 6% 0 6%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.dap-3-4-button-green {
+  background-image: -webkit-linear-gradient(top, #93d89c, #39a04a);
+  height: 52px;
+  width: 238px;
+  box-shadow: 0 0 8px #ccc;
+  border-radius: 5px;
+  border: none;
+  padding: 1px;
+  margin: 10px 2% 0 2%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.dap-1-4-button-purple {
+  background-image: -webkit-linear-gradient(top, #6d99ed, #7464ed);
+  height: 52px;
+  width: 119px;
+  box-shadow: 0 0 8px #ccc;
+  border-radius: 5px;
+  border: none;
+  padding: 1px;
+  margin: 10px 2% 0 2%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.dap-3-4-span {
+  float: left;
+  margin-left: 10%;
+}
+
+.dap-1-4-span {
+  float: right;
+}
+
+.dap-social-media {
+  display: flex;
+  height: 50px;
+  width: 330px;
+  margin: 0 5% 0 5%;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+}
+
+.fa-gray {
+  color: #777;
+}
+
+.fa-purple {
+  color: #7646ed;
+}
+
+.icon-centered-3x {
+  margin: 0 162px 0 162px;
+}
+
+.dap-user-plus-app {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.dap-user-plus-app > .fa-gray {
+  margin-top: 12px;
+}
+
+.dap-app-auth-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.dap-app-auth-list > li {
+  display: flex;
+}
+
+.fa-square-o > span{
+  margin-left: 13px !important;
+}
+
+.dap-app-auth-list > li > span{
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+.dap-li-disabled {
+  opacity: 0.4;
+}
+
+/* ---------------   Line Around Effect ----------- */
+.dap-line-around {
+  overflow: hidden;
+  text-align: center;
+  color: #777;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+.dap-line-around:before, .dap-line-around:after {
+  background-color: #ccc;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 41%;
+}
+
+.dap-line-around:before {
+  right: .5em;
+  margin-left: -50%;
+}
+
+.dap-line-around:after {
+  left: .5em;
+  margin-right: -50%;
+}
+/* ------------------------------------------------ */
