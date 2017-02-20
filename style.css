@@ -1,5 +1,20 @@
-.dap-centered {
+.dap-centered-text {
   text-align: center;
+}
+
+.dap-centered-div {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.dap-space-on-top {
+  margin-top: 10px;
+}
+
+.js-remember-label {
+  display: flex;
+  margin: 0 auto;
 }
 
 .dap-scrunch-bottom {
@@ -8,6 +23,19 @@
 
 .dap-scrunch-top {
   margin-bottom: 0;
+}
+
+.dap-scrunch-both {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.js-remember-checkbox {
+  display: none;
+}
+
+.js-auth-checkbox {
+  display: none;
 }
 
 .dap-bordered {
@@ -71,6 +99,21 @@
 
 .dap-full-button-green {
   background-image: -webkit-linear-gradient(top, #93d89c, #39a04a);
+  height: 52px;
+  width: 356px;
+  box-shadow: 0 0 8px #ccc;
+  border-radius: 5px;
+  border: none;
+  padding: 1px;
+  margin: 10px 6% 0 6%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.dap-full-button-purple {
+  background-image: -webkit-linear-gradient(top, #6d99ed, #7464ed);
   height: 52px;
   width: 356px;
   box-shadow: 0 0 8px #ccc;
@@ -165,11 +208,20 @@
   display: flex;
 }
 
-.fa-square-o > span{
-  margin-left: 13px !important;
+.fa-square-o > span {
+  margin-left: 12px !important;
 }
 
-.dap-app-auth-list > li > span{
+.dap-remember-margin {
+  margin-right: 7px !important;
+}
+
+.dap-remember-me {
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+.dap-app-auth-list > li > span {
   margin-top: 4px;
   margin-left: 8px;
 }
