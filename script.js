@@ -24,14 +24,15 @@ $('body').on('click', '.js-auth-li-enabled', function (ev) {
   ev.preventDefault();
   ev.stopPropagation();  
 
-  if ($('.js-auth-li-enabled').find('.js-auth-checkbox').prop('checked') === true ) {
-    $('.js-auth-li-enabled').removeClass('fa-check-square-o');
-    $('.js-auth-li-enabled').addClass('fa-square-o');
-    $('.js-auth-li-enabled').find('.js-auth-checkbox').prop('checked', false);
-  } else if ($('.js-auth-li-enabled').find('.js-auth-checkbox').prop('checked') === false ) {
-    $('.js-auth-li-enabled').removeClass('fa-square-o');
-    $('.js-auth-li-enabled').addClass('fa-check-square-o');
-    $('.js-auth-li-enabled').find('.js-auth-checkbox').prop('checked', true);
+  var $checkbox = $(this)
+  if ($checkbox.find('.js-auth-checkbox').prop('checked') === true ) {
+    $checkbox.removeClass('fa-check-square-o');
+    $checkbox.addClass('fa-square-o');
+    $checkbox.find('.js-auth-checkbox').prop('checked', false);
+  } else if ($checkbox.find('.js-auth-checkbox').prop('checked') === false ) {
+    $checkbox.removeClass('fa-square-o');
+    $checkbox.addClass('fa-check-square-o');
+    $checkbox.find('.js-auth-checkbox').prop('checked', true);
   }  
   
 });
